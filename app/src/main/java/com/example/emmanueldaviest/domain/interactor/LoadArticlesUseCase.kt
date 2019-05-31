@@ -29,7 +29,7 @@ import javax.inject.Inject
 
 class LoadArticlesUseCase
 @Inject
-constructor(
+constructor(  
     threadExecutor: ThreadExecutor,
     postExecutionThread: PostExecutionThread,
     private val articleRepository: IRepository
