@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+                name="teaserViewModel"
+                type="com.example.emmanueldaviest.domain.model.Teaser" />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:padding="@dimen/padding_8"
+            android:layout_marginBottom="@dimen/margin_8">
+
+        <TextView
+                android:id="@+id/subscribe_now_tv"
+                android:textSize="@dimen/text_18"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:text="@{teaserViewModel.paidDescription}"
+                android:textColor="@color/gray"
+                tools:text="this is a paid content"
+                android:layout_marginStart="@dimen/margin_8" app:layout_constraintStart_toStartOf="@+id/include"
+                android:layout_marginLeft="@dimen/margin_8"
+                android:layout_marginBottom="@dimen/margin_8"
+                app:layout_constraintBottom_toBottomOf="parent" android:layout_marginEnd="@dimen/margin_8"
+                app:layout_constraintEnd_toEndOf="parent" android:layout_marginRight="@dimen/margin_8"
+                android:layout_marginTop="@dimen/margin_8" app:layout_constraintTop_toBottomOf="@+id/include"
+                android:textStyle="italic" android:layout_alignParentRight="true" android:padding="@dimen/margin_20">
+
+        </TextView>
+        <include android:layout_width="wrap_content" android:layout_height="wrap_content"
+                 app:teaserViewModel= "@{teaserViewModel}"
+                 layout="@layout/teaser_item_view"
+                 app:layout_constraintStart_toStartOf="parent" android:layout_marginLeft="@dimen/margin_8"
+                 android:layout_marginStart="@dimen/margin_8" app:layout_constraintEnd_toEndOf="parent"
+                 android:layout_marginEnd="@dimen/margin_8" android:layout_marginRight="8dp" android:id="@+id/include"
+                 android:layout_marginTop="@dimen/margin_8" app:layout_constraintTop_toTopOf="parent"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

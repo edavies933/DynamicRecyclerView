@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Emmanuel Davies Lösung</string>
+    <string name="no_internet_message">Keine Internetverbindung, Daten sind möglicherweise veraltet.</string>
+    <string name="no_data_found_message">Keine Daten gefunden, bitte versuchen Sie es erneut.</string>
+    <string name="Error_message">"FEHLER: Dies sollte niemals passieren, aber versuchen Sie es einfach noch einmal."</string>
+    <string name="paid_content">bezahlter Inhalt</string>
+    <string name="subscribe_now">Abonniere jetzt</string>
+    <string name="free_content">kostenlos Inhalte</string>
+    <string name="buy_subscriptions">Abonnements kaufen</string>
+</resources>

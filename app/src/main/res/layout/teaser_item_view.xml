@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+                name="teaserViewModel"
+                type="com.example.emmanueldaviest.domain.model.Teaser" />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:padding="@dimen/padding_8"
+            android:layout_marginBottom="@dimen/margin_8">
+
+        <TextView
+                android:id="@+id/title"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@{teaserViewModel.title}"
+                android:textSize="@dimen/text_20"
+                android:textColor="@color/gray"
+                tools:text="Jeder einzelne Tag \nmeines Lebens war schlecht" android:layout_marginEnd="@dimen/margin_8"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginRight="@dimen/margin_8" android:layout_marginStart="@dimen/margin_8"
+                app:layout_constraintStart_toStartOf="parent" android:layout_marginLeft="@dimen/margin_8"
+                android:layout_marginTop="@dimen/margin_8" app:layout_constraintTop_toTopOf="parent"
+                android:layout_marginBottom="@dimen/margin_8" app:layout_constraintBottom_toTopOf="@+id/text"
+                android:layout_margin="@dimen/margin_8">
+
+        </TextView>
+
+        <TextView
+                android:id="@+id/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@{teaserViewModel.text}"
+                android:textSize="@dimen/text_18"
+                android:textColor="@color/secondary_text"
+                tools:text="Wenn stimmt, was in ihrem Pass eingetragen ist, wird die Tschetschenin nächsten Monat 129 Jahre alt. Mit Dankbarkeit erfüllt sie das nicht."
+                android:layout_marginStart="8dp"
+                app:layout_constraintStart_toStartOf="parent" android:layout_marginLeft="8dp"
+                app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp" android:layout_marginTop="8dp"
+                app:layout_constraintTop_toBottomOf="@+id/title" android:layout_marginBottom="8dp"
+                app:layout_constraintBottom_toTopOf="@+id/subscribe_now_tv" android:padding="5dp" android:layout_margin="8dp">
+
+        </TextView>
+
+        <TextView
+                android:id="@+id/subscribe_now_tv"
+                android:textSize="@dimen/text_20"
+                android:layout_width="165dp"
+                android:layout_height="62dp"
+                android:layout_alignParentEnd="true"
+                android:text="@{teaserViewModel.isPaid().toString()}"
+                android:visibility="gone"
+                android:textColor="@color/gray"
+                tools:text="this is a paid content"
+                android:layout_marginStart="@dimen/margin_8" app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginLeft="@dimen/margin_8"
+                android:layout_marginTop="@dimen/margin_8"
+                app:layout_constraintTop_toBottomOf="@+id/text" android:layout_marginBottom="@dimen/margin_8"
+                app:layout_constraintBottom_toBottomOf="parent" android:layout_alignParentRight="true">
+
+        </TextView>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

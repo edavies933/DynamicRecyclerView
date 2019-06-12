@@ -1,0 +1,60 @@
+{
+  "name": "Headlines",
+  "teasers": [
+    {
+      "title": "»Jeder einzelne Tag meines Lebens war schlecht",
+      "text": "Wenn stimmt, was in ihrem Pass eingetragen ist, wird die Tschetschenin nächsten Monat 129 Jahre alt. Mit Dankbarkeit erfüllt sie das nicht.",
+      "isPaid": true,
+      "type": "teaser"
+    },
+    {
+      "title": "Palast veröffentlicht traurige Nachricht von Meghan",
+      "text": "Jetzt ist es offiziell: Der Kensington-Palast veröffentlichte ein Statement der Braut. Ihr Vater kann nicht zur Hochzeit kommen.",
+      "type": "teaser"
+    },
+    {
+      "title": "Buffon verlässt Juve nach 17 Jahren",
+      "text": "Eine Legende sagt „Arrivederci“ – aber verabschiedet sich noch nicht ganz vom Fußball. Buffon sprach von „reizvollen Angeboten“.",
+      "type": "teaser"
+    },
+    {
+      "title": "YouTuberin isst vom  Aussterben bedrohte Tiere",
+      "text": "Sie häutet, grillt und isst Schlangen, Haie, Eidechsen, wilde Katzen und seltene Vögel. Das bringt gutes Geld – jetzt aber auch richtig Ärger.",
+      "type": "teaser"
+    },
+    {
+      "title": "Elton John singt für Meghan und Harry!",
+      "text": "Bei dieser Nachricht allein haben wir schon Pipi in den Augen, denn Elton John hat mit den Royals eine ganz besondere Beziehung.",
+      "isPaid": true,
+      "type": "teaser"
+    },
+    {
+      "title": "„Es drohen noch weitere Tornados!“",
+      "text": "Der Tornado in Viersen (NRW) hat ein riesiges Chaos hinterlassen! BILD ließ sich vom Deutschen Wetterdienst den Tornado erklären.",
+      "type": "teaser"
+    },
+    {
+      "title": "Patrick (32): „Darum sehe ich mir Webcam-Girls an“",
+      "text": "Die Webcam-Branche boomt: Tausende Frauen stehen vor der Kamera und spielen mit den erotischen Fantasien der User. Die große Reportage.",
+      "isPaid": true,
+      "type": "teaser"
+    },
+    {
+      "title": "Caros Rosen-Rache an Oliver!",
+      "text": "Rache ist schön! 2015 ließ Bachelor Oliver Sanne Finalistin Caro im TV bitterböse abblitzen. Jetzt rächte sie sich bei „Bachelor in Paradise“.",
+      "type": "teaser"
+    },
+    {
+      "title": "Sandro Wagner macht Schluss mit der Nationalelf!",
+      "text": "So schnell hat selten jemand auf seine Nicht-Nominierung reagiert. Nach seinem WM-Aus macht Sandro Wagner Schluss mit der Nationalelf!",
+      "isPaid": true,
+      "type": "teaser"
+    },
+    {
+      "title": "So international waren Inkas Bauern noch nie",
+      "text": "Moderatorin Inka Bause hilft liebeshungrigen Landwirten aus Kanada und Luxemburg auf die Sprünge. BILD stellt sechs der 16 Bauern vor.",
+      "isPaid": true,
+      "type": "teaser"
+    }
+  ]
+}
